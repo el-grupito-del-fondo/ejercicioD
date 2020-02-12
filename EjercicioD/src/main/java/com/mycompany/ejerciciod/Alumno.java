@@ -62,5 +62,7 @@ public class Alumno {
         return "Alumno{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", id=" + id + ", estadoCivil=" + estadoCivil + '}';
     }
     
-    
+    public void cambiarEstadoCivil(String est){
+        this.estadoCivil = est;
+    }
 }
